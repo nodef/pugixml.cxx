@@ -1,12 +1,34 @@
 pugixml [![Actions Status](https://github.com/zeux/pugixml/workflows/build/badge.svg)](https://github.com/zeux/pugixml/actions) [![Build status](https://ci.appveyor.com/api/projects/status/9hdks1doqvq8pwe7/branch/master?svg=true)](https://ci.appveyor.com/project/zeux/pugixml) [![codecov.io](https://codecov.io/github/zeux/pugixml/coverage.svg?branch=master)](https://codecov.io/github/zeux/pugixml?branch=master) ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 =======
 
-pugixml is a C++ XML processing library, which consists of a DOM-like interface with rich traversal/modification
+pugixml is a C++ XML processing library, by [Arseny Kapoulkine](https://github.com/zeux), which consists of a DOM-like interface with rich traversal/modification
 capabilities, an extremely fast XML parser which constructs the DOM tree from an XML file/buffer, and an XPath 1.0
 implementation for complex data-driven tree queries. Full Unicode support is also available, with Unicode interface
 variants and conversions between different Unicode encodings (which happen automatically during parsing/saving).
 
 pugixml is used by a lot of projects, both open-source and proprietary, for performance and easy-to-use interface.
+
+
+## Installation
+Run:
+```bash
+$ npm i pugixml.cxx
+```
+
+And then include `pugixml.hpp`, among others, as follows:
+```c
+#include "node_modules/pugixml.cxx/src/pugiconfig.hpp"
+#include "node_modules/pugixml.cxx/src/pugixml.hpp"
+```
+
+You may also want to include `pugixml.cpp` as follows:
+```c
+#ifndef __PUGIXML_CXX__
+#define __PUGIXML_CXX__
+#include "node_modules/pugixml.cxx/src/pugixml.cpp"
+#endif
+```
+
 
 ## Documentation
 
