@@ -1,0 +1,22 @@
+{
+  "name": "pugixml.cxx",
+  "version": "1.15.0",
+  "description": "Light-weight, simple and fast XML parser for C++ with XPath support; Arseny Kapoulkine (2006).",
+  "keywords": [
+    "c++",
+    "library",
+    "xml",
+    "parser",
+    "xpath"
+  ],
+  "homepage": "https://github.com/nodef/pugixml.cxx#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/pugixml.cxx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/pugixml.cxx.git"
+  },
+  "license": "MIT",
+  "main": "pugixml.h"
+}
